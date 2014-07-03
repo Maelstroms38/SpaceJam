@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B18437C01965F75400F81C6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18437BF1965F75400F81C6F /* Foundation.framework */; };
+		B18437C21965F75400F81C6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18437C11965F75400F81C6F /* CoreGraphics.framework */; };
+		B18437C41965F75400F81C6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18437C31965F75400F81C6F /* UIKit.framework */; };
+		B18437C61965F75400F81C6F /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18437C51965F75400F81C6F /* SpriteKit.framework */; };
+		B18437CC1965F75400F81C6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B18437CA1965F75400F81C6F /* InfoPlist.strings */; };
+		B18437CE1965F75400F81C6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B18437CD1965F75400F81C6F /* main.m */; };
+		B18437D21965F75400F81C6F /* THAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B18437D11965F75400F81C6F /* THAppDelegate.m */; };
+		B18437D51965F75500F81C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18437D31965F75500F81C6F /* Main.storyboard */; };
+		B18437D81965F75500F81C6F /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18437D71965F75500F81C6F /* THViewController.m */; };
+		B18437DB1965F75500F81C6F /* THMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B18437DA1965F75500F81C6F /* THMyScene.m */; };
+		B18437DD1965F75500F81C6F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = B18437DC1965F75500F81C6F /* Spaceship.png */; };
+		B18437DF1965F75500F81C6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18437DE1965F75500F81C6F /* Images.xcassets */; };
+		B18437E61965F75500F81C6F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18437E51965F75500F81C6F /* XCTest.framework */; };
+		B18437E71965F75500F81C6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18437BF1965F75400F81C6F /* Foundation.framework */; };
+		B18437E81965F75500F81C6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18437C31965F75400F81C6F /* UIKit.framework */; };
+		B18437F01965F75500F81C6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B18437EE1965F75500F81C6F /* InfoPlist.strings */; };
+		B18437F21965F75500F81C6F /* SpaceJamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B18437F11965F75500F81C6F /* SpaceJamTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B18437E91965F75500F81C6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18437B41965F75400F81C6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18437BB1965F75400F81C6F;
+			remoteInfo = SpaceJam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B18437BC1965F75400F81C6F /* SpaceJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18437BF1965F75400F81C6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B18437C11965F75400F81C6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B18437C31965F75400F81C6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B18437C51965F75400F81C6F /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		B18437C91965F75400F81C6F /* SpaceJam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpaceJam-Info.plist"; sourceTree = "<group>"; };
+		B18437CB1965F75400F81C6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B18437CD1965F75400F81C6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B18437CF1965F75400F81C6F /* SpaceJam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpaceJam-Prefix.pch"; sourceTree = "<group>"; };
+		B18437D01965F75400F81C6F /* THAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THAppDelegate.h; sourceTree = "<group>"; };
+		B18437D11965F75400F81C6F /* THAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THAppDelegate.m; sourceTree = "<group>"; };
+		B18437D41965F75500F81C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B18437D61965F75500F81C6F /* THViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
+		B18437D71965F75500F81C6F /* THViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
+		B18437D91965F75500F81C6F /* THMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THMyScene.h; sourceTree = "<group>"; };
+		B18437DA1965F75500F81C6F /* THMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THMyScene.m; sourceTree = "<group>"; };
+		B18437DC1965F75500F81C6F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		B18437DE1965F75500F81C6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B18437E41965F75500F81C6F /* SpaceJamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceJamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18437E51965F75500F81C6F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B18437ED1965F75500F81C6F /* SpaceJamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpaceJamTests-Info.plist"; sourceTree = "<group>"; };
+		B18437EF1965F75500F81C6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B18437F11965F75500F81C6F /* SpaceJamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceJamTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B18437B91965F75400F81C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18437C21965F75400F81C6F /* CoreGraphics.framework in Frameworks */,
+				B18437C41965F75400F81C6F /* UIKit.framework in Frameworks */,
+				B18437C61965F75400F81C6F /* SpriteKit.framework in Frameworks */,
+				B18437C01965F75400F81C6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18437E11965F75500F81C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18437E61965F75500F81C6F /* XCTest.framework in Frameworks */,
+				B18437E81965F75500F81C6F /* UIKit.framework in Frameworks */,
+				B18437E71965F75500F81C6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B18437B31965F75400F81C6F = {
+			isa = PBXGroup;
+			children = (
+				B18437C71965F75400F81C6F /* SpaceJam */,
+				B18437EB1965F75500F81C6F /* SpaceJamTests */,
+				B18437BE1965F75400F81C6F /* Frameworks */,
+				B18437BD1965F75400F81C6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B18437BD1965F75400F81C6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B18437BC1965F75400F81C6F /* SpaceJam.app */,
+				B18437E41965F75500F81C6F /* SpaceJamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18437BE1965F75400F81C6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B18437BF1965F75400F81C6F /* Foundation.framework */,
+				B18437C11965F75400F81C6F /* CoreGraphics.framework */,
+				B18437C31965F75400F81C6F /* UIKit.framework */,
+				B18437C51965F75400F81C6F /* SpriteKit.framework */,
+				B18437E51965F75500F81C6F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B18437C71965F75400F81C6F /* SpaceJam */ = {
+			isa = PBXGroup;
+			children = (
+				B18437D01965F75400F81C6F /* THAppDelegate.h */,
+				B18437D11965F75400F81C6F /* THAppDelegate.m */,
+				B18437D31965F75500F81C6F /* Main.storyboard */,
+				B18437D61965F75500F81C6F /* THViewController.h */,
+				B18437D71965F75500F81C6F /* THViewController.m */,
+				B18437D91965F75500F81C6F /* THMyScene.h */,
+				B18437DA1965F75500F81C6F /* THMyScene.m */,
+				B18437DC1965F75500F81C6F /* Spaceship.png */,
+				B18437DE1965F75500F81C6F /* Images.xcassets */,
+				B18437C81965F75400F81C6F /* Supporting Files */,
+			);
+			path = SpaceJam;
+			sourceTree = "<group>";
+		};
+		B18437C81965F75400F81C6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B18437C91965F75400F81C6F /* SpaceJam-Info.plist */,
+				B18437CA1965F75400F81C6F /* InfoPlist.strings */,
+				B18437CD1965F75400F81C6F /* main.m */,
+				B18437CF1965F75400F81C6F /* SpaceJam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B18437EB1965F75500F81C6F /* SpaceJamTests */ = {
+			isa = PBXGroup;
+			children = (
+				B18437F11965F75500F81C6F /* SpaceJamTests.m */,
+				B18437EC1965F75500F81C6F /* Supporting Files */,
+			);
+			path = SpaceJamTests;
+			sourceTree = "<group>";
+		};
+		B18437EC1965F75500F81C6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B18437ED1965F75500F81C6F /* SpaceJamTests-Info.plist */,
+				B18437EE1965F75500F81C6F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B18437BB1965F75400F81C6F /* SpaceJam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18437F51965F75500F81C6F /* Build configuration list for PBXNativeTarget "SpaceJam" */;
+			buildPhases = (
+				B18437B81965F75400F81C6F /* Sources */,
+				B18437B91965F75400F81C6F /* Frameworks */,
+				B18437BA1965F75400F81C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceJam;
+			productName = SpaceJam;
+			productReference = B18437BC1965F75400F81C6F /* SpaceJam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B18437E31965F75500F81C6F /* SpaceJamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18437F81965F75500F81C6F /* Build configuration list for PBXNativeTarget "SpaceJamTests" */;
+			buildPhases = (
+				B18437E01965F75500F81C6F /* Sources */,
+				B18437E11965F75500F81C6F /* Frameworks */,
+				B18437E21965F75500F81C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B18437EA1965F75500F81C6F /* PBXTargetDependency */,
+			);
+			name = SpaceJamTests;
+			productName = SpaceJamTests;
+			productReference = B18437E41965F75500F81C6F /* SpaceJamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B18437B41965F75400F81C6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Michael Stromer";
+				TargetAttributes = {
+					B18437E31965F75500F81C6F = {
+						TestTargetID = B18437BB1965F75400F81C6F;
+					};
+				};
+			};
+			buildConfigurationList = B18437B71965F75400F81C6F /* Build configuration list for PBXProject "SpaceJam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B18437B31965F75400F81C6F;
+			productRefGroup = B18437BD1965F75400F81C6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B18437BB1965F75400F81C6F /* SpaceJam */,
+				B18437E31965F75500F81C6F /* SpaceJamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B18437BA1965F75400F81C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18437CC1965F75400F81C6F /* InfoPlist.strings in Resources */,
+				B18437DF1965F75500F81C6F /* Images.xcassets in Resources */,
+				B18437DD1965F75500F81C6F /* Spaceship.png in Resources */,
+				B18437D51965F75500F81C6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18437E21965F75500F81C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18437F01965F75500F81C6F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B18437B81965F75400F81C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18437D81965F75500F81C6F /* THViewController.m in Sources */,
+				B18437D21965F75400F81C6F /* THAppDelegate.m in Sources */,
+				B18437DB1965F75500F81C6F /* THMyScene.m in Sources */,
+				B18437CE1965F75400F81C6F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18437E01965F75500F81C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18437F21965F75500F81C6F /* SpaceJamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B18437EA1965F75500F81C6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18437BB1965F75400F81C6F /* SpaceJam */;
+			targetProxy = B18437E91965F75500F81C6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B18437CA1965F75400F81C6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18437CB1965F75400F81C6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B18437D31965F75500F81C6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18437D41965F75500F81C6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B18437EE1965F75500F81C6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18437EF1965F75500F81C6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B18437F31965F75500F81C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B18437F41965F75500F81C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B18437F61965F75500F81C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpaceJam/SpaceJam-Prefix.pch";
+				INFOPLIST_FILE = "SpaceJam/SpaceJam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B18437F71965F75500F81C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpaceJam/SpaceJam-Prefix.pch";
+				INFOPLIST_FILE = "SpaceJam/SpaceJam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B18437F91965F75500F81C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpaceJam.app/SpaceJam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpaceJam/SpaceJam-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpaceJamTests/SpaceJamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B18437FA1965F75500F81C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpaceJam.app/SpaceJam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpaceJam/SpaceJam-Prefix.pch";
+				INFOPLIST_FILE = "SpaceJamTests/SpaceJamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B18437B71965F75400F81C6F /* Build configuration list for PBXProject "SpaceJam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18437F31965F75500F81C6F /* Debug */,
+				B18437F41965F75500F81C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18437F51965F75500F81C6F /* Build configuration list for PBXNativeTarget "SpaceJam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18437F61965F75500F81C6F /* Debug */,
+				B18437F71965F75500F81C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B18437F81965F75500F81C6F /* Build configuration list for PBXNativeTarget "SpaceJamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18437F91965F75500F81C6F /* Debug */,
+				B18437FA1965F75500F81C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B18437B41965F75400F81C6F /* Project object */;
+}
