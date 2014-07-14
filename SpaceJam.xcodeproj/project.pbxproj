@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B124DA2D19663C1300DE29FA /* THSpaceDogNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B124DA2C19663C1300DE29FA /* THSpaceDogNode.m */; };
+		B124DA301966402500DE29FA /* THGroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B124DA2F1966402500DE29FA /* THGroundNode.m */; };
 		B18437C01965F75400F81C6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18437BF1965F75400F81C6F /* Foundation.framework */; };
 		B18437C21965F75400F81C6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18437C11965F75400F81C6F /* CoreGraphics.framework */; };
 		B18437C41965F75400F81C6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18437C31965F75400F81C6F /* UIKit.framework */; };
@@ -16,14 +18,31 @@
 		B18437D21965F75400F81C6F /* THAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B18437D11965F75400F81C6F /* THAppDelegate.m */; };
 		B18437D51965F75500F81C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18437D31965F75500F81C6F /* Main.storyboard */; };
 		B18437D81965F75500F81C6F /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18437D71965F75500F81C6F /* THViewController.m */; };
-		B18437DB1965F75500F81C6F /* THMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B18437DA1965F75500F81C6F /* THMyScene.m */; };
-		B18437DD1965F75500F81C6F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = B18437DC1965F75500F81C6F /* Spaceship.png */; };
 		B18437DF1965F75500F81C6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18437DE1965F75500F81C6F /* Images.xcassets */; };
 		B18437E61965F75500F81C6F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18437E51965F75500F81C6F /* XCTest.framework */; };
 		B18437E71965F75500F81C6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18437BF1965F75400F81C6F /* Foundation.framework */; };
 		B18437E81965F75500F81C6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18437C31965F75400F81C6F /* UIKit.framework */; };
 		B18437F01965F75500F81C6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B18437EE1965F75500F81C6F /* InfoPlist.strings */; };
 		B18437F21965F75500F81C6F /* SpaceJamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B18437F11965F75500F81C6F /* SpaceJamTests.m */; };
+		B18437FD1965FD2300F81C6F /* THTitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B18437FC1965FD2300F81C6F /* THTitleScene.m */; };
+		B18438001965FFE800F81C6F /* THGamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B18437FF1965FFE800F81C6F /* THGamePlayScene.m */; };
+		B18438021966026400F81C6F /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B18438011966026400F81C6F /* Sprites.atlas */; };
+		B18438051966059B00F81C6F /* THMachineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B18438041966059B00F81C6F /* THMachineNode.m */; };
+		B184380819660CC700F81C6F /* THSpaceCatNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B184380719660CC700F81C6F /* THSpaceCatNode.m */; };
+		B184380B1966131F00F81C6F /* THProjectileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B184380A1966131F00F81C6F /* THProjectileNode.m */; };
+		B184380F19661E7900F81C6F /* THUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B184380E19661E7900F81C6F /* THUtil.m */; };
+		B1A9209D196A1D0D006BA94F /* damage.caf in Resources */ = {isa = PBXBuildFile; fileRef = B1A92099196A1D0D006BA94F /* damage.caf */; };
+		B1A9209E196A1D0D006BA94F /* explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = B1A9209A196A1D0D006BA94F /* explosion.caf */; };
+		B1A920A0196A1D0D006BA94F /* Start.caf in Resources */ = {isa = PBXBuildFile; fileRef = B1A9209C196A1D0D006BA94F /* Start.caf */; };
+		B1A920A5196A3064006BA94F /* GameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1A920A2196A3064006BA94F /* GameOver.mp3 */; };
+		B1A920A9196A308D006BA94F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A920A8196A308D006BA94F /* AVFoundation.framework */; };
+		B1A920AB196A3416006BA94F /* Shoot.caf in Resources */ = {isa = PBXBuildFile; fileRef = B1A920AA196A3416006BA94F /* Shoot.caf */; };
+		B1A920AD196A3B8B006BA94F /* MilkyWay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1A920AC196A3B8B006BA94F /* MilkyWay.mp3 */; };
+		B1A920AF196A3C0D006BA94F /* Mantis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B1A920AE196A3C0D006BA94F /* Mantis.mp3 */; };
+		B1FBAC13196AFA48006E72A5 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = B1FBAC11196AFA48006E72A5 /* Explosion.sks */; };
+		B1FBAC14196AFA48006E72A5 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FBAC12196AFA48006E72A5 /* spark.png */; };
+		B1FBAC17196AFD3F006E72A5 /* THHudNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FBAC16196AFD3F006E72A5 /* THHudNode.m */; };
+		B1FBAC1A196B0637006E72A5 /* THGameOverNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FBAC19196B0637006E72A5 /* THGameOverNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B124DA2B19663C1300DE29FA /* THSpaceDogNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSpaceDogNode.h; sourceTree = "<group>"; };
+		B124DA2C19663C1300DE29FA /* THSpaceDogNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THSpaceDogNode.m; sourceTree = "<group>"; };
+		B124DA2E1966402500DE29FA /* THGroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THGroundNode.h; sourceTree = "<group>"; };
+		B124DA2F1966402500DE29FA /* THGroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THGroundNode.m; sourceTree = "<group>"; };
 		B18437BC1965F75400F81C6F /* SpaceJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18437BF1965F75400F81C6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B18437C11965F75400F81C6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,15 +74,39 @@
 		B18437D41965F75500F81C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B18437D61965F75500F81C6F /* THViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
 		B18437D71965F75500F81C6F /* THViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
-		B18437D91965F75500F81C6F /* THMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THMyScene.h; sourceTree = "<group>"; };
-		B18437DA1965F75500F81C6F /* THMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THMyScene.m; sourceTree = "<group>"; };
-		B18437DC1965F75500F81C6F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		B18437DE1965F75500F81C6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B18437E41965F75500F81C6F /* SpaceJamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceJamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18437E51965F75500F81C6F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B18437ED1965F75500F81C6F /* SpaceJamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpaceJamTests-Info.plist"; sourceTree = "<group>"; };
 		B18437EF1965F75500F81C6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B18437F11965F75500F81C6F /* SpaceJamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceJamTests.m; sourceTree = "<group>"; };
+		B18437FB1965FD2300F81C6F /* THTitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTitleScene.h; sourceTree = "<group>"; };
+		B18437FC1965FD2300F81C6F /* THTitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTitleScene.m; sourceTree = "<group>"; };
+		B18437FE1965FFE800F81C6F /* THGamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THGamePlayScene.h; sourceTree = "<group>"; };
+		B18437FF1965FFE800F81C6F /* THGamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THGamePlayScene.m; sourceTree = "<group>"; };
+		B18438011966026400F81C6F /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		B18438031966059B00F81C6F /* THMachineNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THMachineNode.h; sourceTree = "<group>"; };
+		B18438041966059B00F81C6F /* THMachineNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THMachineNode.m; sourceTree = "<group>"; };
+		B184380619660CC700F81C6F /* THSpaceCatNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSpaceCatNode.h; sourceTree = "<group>"; };
+		B184380719660CC700F81C6F /* THSpaceCatNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THSpaceCatNode.m; sourceTree = "<group>"; };
+		B18438091966131F00F81C6F /* THProjectileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THProjectileNode.h; sourceTree = "<group>"; };
+		B184380A1966131F00F81C6F /* THProjectileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THProjectileNode.m; sourceTree = "<group>"; };
+		B184380D19661E7900F81C6F /* THUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THUtil.h; sourceTree = "<group>"; };
+		B184380E19661E7900F81C6F /* THUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THUtil.m; sourceTree = "<group>"; };
+		B1A92099196A1D0D006BA94F /* damage.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = damage.caf; sourceTree = "<group>"; };
+		B1A9209A196A1D0D006BA94F /* explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = explosion.caf; sourceTree = "<group>"; };
+		B1A9209C196A1D0D006BA94F /* Start.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Start.caf; sourceTree = "<group>"; };
+		B1A920A2196A3064006BA94F /* GameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameOver.mp3; sourceTree = "<group>"; };
+		B1A920A8196A308D006BA94F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B1A920AA196A3416006BA94F /* Shoot.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shoot.caf; sourceTree = "<group>"; };
+		B1A920AC196A3B8B006BA94F /* MilkyWay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MilkyWay.mp3; sourceTree = "<group>"; };
+		B1A920AE196A3C0D006BA94F /* Mantis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mantis.mp3; sourceTree = "<group>"; };
+		B1FBAC11196AFA48006E72A5 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		B1FBAC12196AFA48006E72A5 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		B1FBAC15196AFD3F006E72A5 /* THHudNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THHudNode.h; sourceTree = "<group>"; };
+		B1FBAC16196AFD3F006E72A5 /* THHudNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THHudNode.m; sourceTree = "<group>"; };
+		B1FBAC18196B0636006E72A5 /* THGameOverNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THGameOverNode.h; sourceTree = "<group>"; };
+		B1FBAC19196B0637006E72A5 /* THGameOverNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THGameOverNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A920A9196A308D006BA94F /* AVFoundation.framework in Frameworks */,
 				B18437C21965F75400F81C6F /* CoreGraphics.framework in Frameworks */,
 				B18437C41965F75400F81C6F /* UIKit.framework in Frameworks */,
 				B18437C61965F75400F81C6F /* SpriteKit.framework in Frameworks */,
@@ -109,6 +157,7 @@
 		B18437BE1965F75400F81C6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B1A920A8196A308D006BA94F /* AVFoundation.framework */,
 				B18437BF1965F75400F81C6F /* Foundation.framework */,
 				B18437C11965F75400F81C6F /* CoreGraphics.framework */,
 				B18437C31965F75400F81C6F /* UIKit.framework */,
@@ -121,16 +170,33 @@
 		B18437C71965F75400F81C6F /* SpaceJam */ = {
 			isa = PBXGroup;
 			children = (
-				B18437D01965F75400F81C6F /* THAppDelegate.h */,
-				B18437D11965F75400F81C6F /* THAppDelegate.m */,
 				B18437D31965F75500F81C6F /* Main.storyboard */,
-				B18437D61965F75500F81C6F /* THViewController.h */,
-				B18437D71965F75500F81C6F /* THViewController.m */,
-				B18437D91965F75500F81C6F /* THMyScene.h */,
-				B18437DA1965F75500F81C6F /* THMyScene.m */,
-				B18437DC1965F75500F81C6F /* Spaceship.png */,
+				B184380619660CC700F81C6F /* THSpaceCatNode.h */,
+				B184380719660CC700F81C6F /* THSpaceCatNode.m */,
+				B18437FB1965FD2300F81C6F /* THTitleScene.h */,
+				B18437FC1965FD2300F81C6F /* THTitleScene.m */,
+				B18437FE1965FFE800F81C6F /* THGamePlayScene.h */,
+				B18437FF1965FFE800F81C6F /* THGamePlayScene.m */,
+				B1FBAC18196B0636006E72A5 /* THGameOverNode.h */,
+				B1FBAC19196B0637006E72A5 /* THGameOverNode.m */,
+				B124DA2E1966402500DE29FA /* THGroundNode.h */,
+				B124DA2F1966402500DE29FA /* THGroundNode.m */,
+				B1FBAC15196AFD3F006E72A5 /* THHudNode.h */,
+				B1FBAC16196AFD3F006E72A5 /* THHudNode.m */,
+				B18438031966059B00F81C6F /* THMachineNode.h */,
+				B18438041966059B00F81C6F /* THMachineNode.m */,
+				B18438091966131F00F81C6F /* THProjectileNode.h */,
+				B184380A1966131F00F81C6F /* THProjectileNode.m */,
+				B124DA2B19663C1300DE29FA /* THSpaceDogNode.h */,
+				B124DA2C19663C1300DE29FA /* THSpaceDogNode.m */,
+				B184380D19661E7900F81C6F /* THUtil.h */,
+				B184380E19661E7900F81C6F /* THUtil.m */,
 				B18437DE1965F75500F81C6F /* Images.xcassets */,
+				B1A92098196A1CF4006BA94F /* Sounds */,
+				B18438011966026400F81C6F /* Sprites.atlas */,
 				B18437C81965F75400F81C6F /* Supporting Files */,
+				B1FBAC11196AFA48006E72A5 /* Explosion.sks */,
+				B1FBAC12196AFA48006E72A5 /* spark.png */,
 			);
 			path = SpaceJam;
 			sourceTree = "<group>";
@@ -138,6 +204,10 @@
 		B18437C81965F75400F81C6F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B18437D61965F75500F81C6F /* THViewController.h */,
+				B18437D71965F75500F81C6F /* THViewController.m */,
+				B18437D01965F75400F81C6F /* THAppDelegate.h */,
+				B18437D11965F75400F81C6F /* THAppDelegate.m */,
 				B18437C91965F75400F81C6F /* SpaceJam-Info.plist */,
 				B18437CA1965F75400F81C6F /* InfoPlist.strings */,
 				B18437CD1965F75400F81C6F /* main.m */,
@@ -162,6 +232,20 @@
 				B18437EE1965F75500F81C6F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1A92098196A1CF4006BA94F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B1A920AE196A3C0D006BA94F /* Mantis.mp3 */,
+				B1A920AC196A3B8B006BA94F /* MilkyWay.mp3 */,
+				B1A920A2196A3064006BA94F /* GameOver.mp3 */,
+				B1A92099196A1D0D006BA94F /* damage.caf */,
+				B1A9209A196A1D0D006BA94F /* explosion.caf */,
+				B1A920AA196A3416006BA94F /* Shoot.caf */,
+				B1A9209C196A1D0D006BA94F /* Start.caf */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +296,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Michael Stromer";
 				TargetAttributes = {
+					B18437BB1965F75400F81C6F = {
+						DevelopmentTeam = ZV96XJ6Z7F;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
+					};
 					B18437E31965F75500F81C6F = {
 						TestTargetID = B18437BB1965F75400F81C6F;
 					};
@@ -241,10 +333,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A920AF196A3C0D006BA94F /* Mantis.mp3 in Resources */,
+				B1A9209E196A1D0D006BA94F /* explosion.caf in Resources */,
+				B1A920AB196A3416006BA94F /* Shoot.caf in Resources */,
 				B18437CC1965F75400F81C6F /* InfoPlist.strings in Resources */,
 				B18437DF1965F75500F81C6F /* Images.xcassets in Resources */,
-				B18437DD1965F75500F81C6F /* Spaceship.png in Resources */,
+				B1FBAC14196AFA48006E72A5 /* spark.png in Resources */,
+				B1FBAC13196AFA48006E72A5 /* Explosion.sks in Resources */,
+				B1A920A5196A3064006BA94F /* GameOver.mp3 in Resources */,
+				B18438021966026400F81C6F /* Sprites.atlas in Resources */,
+				B1A920AD196A3B8B006BA94F /* MilkyWay.mp3 in Resources */,
+				B1A9209D196A1D0D006BA94F /* damage.caf in Resources */,
 				B18437D51965F75500F81C6F /* Main.storyboard in Resources */,
+				B1A920A0196A1D0D006BA94F /* Start.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +364,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B184380B1966131F00F81C6F /* THProjectileNode.m in Sources */,
 				B18437D81965F75500F81C6F /* THViewController.m in Sources */,
+				B184380F19661E7900F81C6F /* THUtil.m in Sources */,
+				B1FBAC1A196B0637006E72A5 /* THGameOverNode.m in Sources */,
 				B18437D21965F75400F81C6F /* THAppDelegate.m in Sources */,
-				B18437DB1965F75500F81C6F /* THMyScene.m in Sources */,
+				B18438001965FFE800F81C6F /* THGamePlayScene.m in Sources */,
+				B1FBAC17196AFD3F006E72A5 /* THHudNode.m in Sources */,
 				B18437CE1965F75400F81C6F /* main.m in Sources */,
+				B18437FD1965FD2300F81C6F /* THTitleScene.m in Sources */,
+				B18438051966059B00F81C6F /* THMachineNode.m in Sources */,
+				B184380819660CC700F81C6F /* THSpaceCatNode.m in Sources */,
+				B124DA301966402500DE29FA /* THGroundNode.m in Sources */,
+				B124DA2D19663C1300DE29FA /* THSpaceDogNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,10 +501,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpaceJam/SpaceJam-Prefix.pch";
 				INFOPLIST_FILE = "SpaceJam/SpaceJam-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -405,10 +518,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpaceJam/SpaceJam-Prefix.pch";
 				INFOPLIST_FILE = "SpaceJam/SpaceJam-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -473,6 +589,7 @@
 				B18437F71965F75500F81C6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B18437F81965F75500F81C6F /* Build configuration list for PBXNativeTarget "SpaceJamTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +598,7 @@
 				B18437FA1965F75500F81C6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

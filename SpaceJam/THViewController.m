@@ -7,27 +7,29 @@
 //
 
 #import "THViewController.h"
-#import "THMyScene.h"
+#import "THTitleScene.h"
 
 @implementation THViewController
 
-- (void)viewDidLoad
+- (void)viewDidLayoutSubviews
 {
-    [super viewDidLoad];
+    [super viewDidLayoutSubviews];
 
     // Configure the view.
     SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
+    skView.showsFPS = NO;
+    skView.showsNodeCount = NO;
     
     // Create and configure the scene.
-    SKScene * scene = [THMyScene sceneWithSize:skView.bounds.size];
+    SKScene * scene = [THTitleScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
     [skView presentScene:scene];
 }
-
+-(BOOL)prefersStatusBarHidden {
+    return YES;
+}
 - (BOOL)shouldAutorotate
 {
     return YES;

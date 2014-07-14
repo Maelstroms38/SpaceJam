@@ -1,0 +1,420 @@
+TSpaceJam
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/PrecompiledHeaders/SpaceJam-Prefix-coqhwyunypewngcqnramauplgzkw/SpaceJam-Prefix.pch.pch SpaceJam/SpaceJam-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THViewController.o /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THAppDelegate.o /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THMyScene.o /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THMyScene.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/main.o /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/SpaceJam normal i386
+cCopyStringsFile /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/en.lproj/InfoPlist.strings SpaceJam/en.lproj/InfoPlist.strings
+cCpResource SpaceJam/Spaceship.png Build/Products/Debug-iphonesimulator/SpaceJam.app/Spaceship.png
+cCompileStoryboard /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/Images.xcassets
+cProcessInfoPlistFile /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/Info.plist /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/SpaceJam-Info.plist
+cGenerateDSYMFile /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app.dSYM /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/SpaceJam
+cTouch /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c00000000534739320000000000000198
+t1397176626
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531E47FF00000000000003B4
+t1394493439
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E4806000000000000019E
+t1394493446
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000534738DC0000000000446820
+t1397176540
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531E480C000000000088D8C0
+t1394493452
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
+c00000000531E480D000000000024D800
+t1394493453
+s2414592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531E48100000000001F1DE10
+t1394493456
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531E48270000000000000ADC
+t1394493479
+s2780
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/PrecompiledHeaders/SpaceJam-Prefix-coqhwyunypewngcqnramauplgzkw/SpaceJam-Prefix.pch.pch
+t1404420120
+s122276
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/SpaceJam.LinkFileList
+c0000000053B5C0170000000000000262
+t1404420119
+s610
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THAppDelegate.o
+t1404420120
+s62488
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THMyScene.o
+t1404420120
+s50312
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THViewController.o
+t1404420121
+s45008
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/main.o
+t1404420120
+s3560
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/assetcatalog_dependencies.txt
+t1404420122
+s402
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/assetcatalog_generated_info.plist
+t1404420122
+s525
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app
+t1404420122
+s340
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app.dSYM
+t2
+s0
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/Base.lproj/Main.storyboardc
+t1404420121
+s170
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/Info.plist
+t1404420122
+s1032
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/PkgInfo
+t1404420122
+s8
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/SpaceJam
+t1404420121
+s23652
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/Spaceship.png
+t1404420121
+s134723
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/en.lproj/InfoPlist.strings
+t1404420121
+s42
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/Base.lproj/Main.storyboard
+c0000000053B5BFD5000000000000071C
+t1404420053
+s1820
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/Images.xcassets
+c0000000053B5BFD50000000000000088
+t1404420053
+s136
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/SpaceJam-Info.plist
+c0000000053B5BFD400000000000004E7
+t1404420052
+s1255
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/SpaceJam-Prefix.pch
+c0000000053B5BFD40000000000000158
+t1404420052
+s344
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/Spaceship.png
+c0000000052728C8C0000000000020E43
+t1383238796
+s134723
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THAppDelegate.m
+c0000000053B5BFD400000000000007E5
+t1404420052
+s2021
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THMyScene.m
+c0000000053B5BFD50000000000000592
+t1404420053
+s1426
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THViewController.m
+c0000000053B5BFD50000000000000443
+t1404420053
+s1091
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/en.lproj/InfoPlist.strings
+c0000000053B5BFD4000000000000002D
+t1404420052
+s45
+
+N/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/main.m
+c0000000053B5BFD4000000000000015D
+t1404420052
+s349
+
+CBuild AST from /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THAppDelegate.m
+r0
+
+CBuild AST from /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THMyScene.m
+r0
+
+CBuild AST from /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THViewController.m
+r0
+
+CBuild AST from /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd2e26897f765b941^5b997097f765b941^---0#1#1#--18"Check dependencies36"65189B67-5D5F-4FF3-B4C9-8C782E369326-
+
+CCompileAssetCatalog /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/Images.xcassets
+s426112921.482037
+e426112922.285497
+r1
+xCompileAssetCatalog
+x/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app
+x/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/LaunchImage-700-568h@2x.png
+o/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/Assets.car
+o/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CompileAssetCatalog Build/Products/Debug-iphonesimulator/SpaceJam.app SpaceJam/Images.xcassets94"CompileAssetCatalog Build/Products/Debug-iphonesimulator/SpaceJam.app SpaceJam/Images.xcassets0f817b99f765b941^ec16499af765b941^-430"/* com.apple.actool.compilation-results *//Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/LaunchImage-700-568h@2x.png/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/Assets.car/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@79"file:///Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/Images.xcassets/0000000000000000^1186"CompileAssetCatalog Build/Products/Debug-iphonesimulator/SpaceJam.app SpaceJam/Images.xcassets    cd /Users/michaelstromer/Documents/Codes/SpaceJam    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/Images.xcassets36"D6856CE7-26DF-43BC-8139-7C82E10CAD1F-
+b52EFFD27-F844-4F0A-AD73-99D95C17A063
+
+CCompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THAppDelegate.o /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426112920.402751
+e426112920.683240
+r1
+xCompileC
+xBuild/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THAppDelegate.o
+x/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THAppDelegate.m
+d/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THAppDelegate.m209"CompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THAppDelegate.o SpaceJam/THAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler083d6798f765b941^57e9ae98f765b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THAppDelegate.m0000000000000000^3812"CompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THAppDelegate.o SpaceJam/THAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/michaelstromer/Documents/Codes/SpaceJam    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/michaelstromer/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-generated-files.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-own-target-headers.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-all-target-headers.hmap -iquote /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-project-headers.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/DerivedSources/i386 -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/DerivedSources -F/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator -include /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/PrecompiledHeaders/SpaceJam-Prefix-coqhwyunypewngcqnramauplgzkw/SpaceJam-Prefix.pch -MMD -MT dependencies -MF /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THAppDelegate.d --serialize-diagnostics /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THAppDelegate.dia -c /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THAppDelegate.m -o /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THAppDelegate.o36"BDE4857B-5D62-4AFD-BD8B-E61BD331D863-
+b52EFFD27-F844-4F0A-AD73-99D95C17A063
+
+CCompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THMyScene.o /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THMyScene.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426112920.403253
+e426112920.779682
+r1
+xCompileC
+xBuild/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THMyScene.o
+x/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THMyScene.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THMyScene.m
+d/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THMyScene.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THMyScene.m201"CompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THMyScene.o SpaceJam/THMyScene.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf06c6798f765b941^aa9bc798f765b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THMyScene.m0000000000000000^3788"CompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THMyScene.o SpaceJam/THMyScene.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/michaelstromer/Documents/Codes/SpaceJam    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/michaelstromer/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-generated-files.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-own-target-headers.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-all-target-headers.hmap -iquote /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-project-headers.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/DerivedSources/i386 -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/DerivedSources -F/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator -include /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/PrecompiledHeaders/SpaceJam-Prefix-coqhwyunypewngcqnramauplgzkw/SpaceJam-Prefix.pch -MMD -MT dependencies -MF /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THMyScene.d --serialize-diagnostics /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THMyScene.dia -c /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THMyScene.m -o /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THMyScene.o36"74255E55-E1D9-4D29-A867-34FCF69E8ED0-
+b52EFFD27-F844-4F0A-AD73-99D95C17A063
+
+CCompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THViewController.o /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426112920.402232
+e426112921.163062
+r1
+xCompileC
+xBuild/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THViewController.o
+x/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THViewController.m
+d/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THViewController.h
+d/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THMyScene.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THViewController.m215"CompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THViewController.o SpaceJam/THViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler60216798f765b941^9cbf2999f765b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THViewController.m0000000000000000^3830"CompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THViewController.o SpaceJam/THViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/michaelstromer/Documents/Codes/SpaceJam    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/michaelstromer/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-generated-files.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-own-target-headers.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-all-target-headers.hmap -iquote /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-project-headers.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/DerivedSources/i386 -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/DerivedSources -F/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator -include /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/PrecompiledHeaders/SpaceJam-Prefix-coqhwyunypewngcqnramauplgzkw/SpaceJam-Prefix.pch -MMD -MT dependencies -MF /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THViewController.d --serialize-diagnostics /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THViewController.dia -c /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THViewController.m -o /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THViewController.o36"06787F89-9487-4E4C-AB4C-857311758528-
+b52EFFD27-F844-4F0A-AD73-99D95C17A063
+
+CCompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/main.o /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426112920.404091
+e426112920.595309
+r1
+xCompileC
+xBuild/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/main.o
+x/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/main.m
+d/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/THAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/main.m191"CompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/main.o SpaceJam/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5ab96798f765b941^90669898f765b941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/main.m0000000000000000^3758"CompileC Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/main.o SpaceJam/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/michaelstromer/Documents/Codes/SpaceJam    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/michaelstromer/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-generated-files.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-own-target-headers.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-all-target-headers.hmap -iquote /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-project-headers.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/DerivedSources/i386 -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/DerivedSources -F/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator -include /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/PrecompiledHeaders/SpaceJam-Prefix-coqhwyunypewngcqnramauplgzkw/SpaceJam-Prefix.pch -MMD -MT dependencies -MF /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/main.dia -c /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/main.m -o /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/main.o36"FFC6962D-4DD9-450C-A060-C0513C373000-
+b52EFFD27-F844-4F0A-AD73-99D95C17A063
+
+CCompileStoryboard /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/Base.lproj/Main.storyboard
+s426112921.480928
+e426112921.862248
+r1
+xCompileStoryboard
+x/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"CompileStoryboard SpaceJam/Base.lproj/Main.storyboard53"CompileStoryboard SpaceJam/Base.lproj/Main.storyboard44337b99f765b941^8cbcdc99f765b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/Base.lproj/Main.storyboard0000000000000000^866"CompileStoryboard SpaceJam/Base.lproj/Main.storyboard    cd /Users/michaelstromer/Documents/Codes/SpaceJam    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/Base.lproj/Main.storyboardc /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/Base.lproj/Main.storyboard36"DA0C27C3-6289-4B18-BD78-FB0598BBC254-
+b52EFFD27-F844-4F0A-AD73-99D95C17A063
+
+CCopyStringsFile /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/en.lproj/InfoPlist.strings SpaceJam/en.lproj/InfoPlist.strings
+s426112921.480570
+e426112921.483052
+r1
+xCopyStringsFile
+x/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/en.lproj/InfoPlist.strings
+xSpaceJam/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy SpaceJam/en.lproj/InfoPlist.strings128"CopyStringsFile Build/Products/Debug-iphonesimulator/SpaceJam.app/en.lproj/InfoPlist.strings SpaceJam/en.lproj/InfoPlist.strings172e7b99f765b941^f4a97b99f765b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/en.lproj/InfoPlist.strings0000000000000000^613"CopyStringsFile Build/Products/Debug-iphonesimulator/SpaceJam.app/en.lproj/InfoPlist.strings SpaceJam/en.lproj/InfoPlist.strings    cd /Users/michaelstromer/Documents/Codes/SpaceJam    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/en.lproj -- SpaceJam/en.lproj/InfoPlist.strings36"48984ACB-4C69-4282-8F8A-E27A2A1A8B94-
+b52EFFD27-F844-4F0A-AD73-99D95C17A063
+
+CCpResource SpaceJam/Spaceship.png Build/Products/Debug-iphonesimulator/SpaceJam.app/Spaceship.png
+s426112921.480728
+e426112921.482234
+r1
+xCpResource
+xSpaceJam/Spaceship.png
+xBuild/Products/Debug-iphonesimulator/SpaceJam.app/Spaceship.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphonesimulator/SpaceJam.app/Spaceship.png97"CpResource SpaceJam/Spaceship.png Build/Products/Debug-iphonesimulator/SpaceJam.app/Spaceship.png4f217b99f765b941^a7757b99f765b941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/Spaceship.png00349058dfffdf42^626"CpResource SpaceJam/Spaceship.png Build/Products/Debug-iphonesimulator/SpaceJam.app/Spaceship.png    cd /Users/michaelstromer/Documents/Codes/SpaceJam    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/Spaceship.png /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app36"17305A03-B9FF-4D58-A17A-216CB9765F91-
+b52EFFD27-F844-4F0A-AD73-99D95C17A063
+
+CGenerateDSYMFile /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app.dSYM /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/SpaceJam
+s426112922.287769
+e426112922.300711
+r1
+xGenerateDSYMFile
+x/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app.dSYM
+x/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/SpaceJam
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Generate /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app.dSYM130"GenerateDSYMFile Build/Products/Debug-iphonesimulator/SpaceJam.app.dSYM Build/Products/Debug-iphonesimulator/SpaceJam.app/SpaceJam20b5499af765b941^50fc4c9af765b941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app.dSYM00349058dfffdf42^691"GenerateDSYMFile Build/Products/Debug-iphonesimulator/SpaceJam.app.dSYM Build/Products/Debug-iphonesimulator/SpaceJam.app/SpaceJam    cd /Users/michaelstromer/Documents/Codes/SpaceJam    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/SpaceJam -o /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app.dSYM36"A46F02E8-FDDA-473A-93FB-E893FFCBB0D3-
+b52EFFD27-F844-4F0A-AD73-99D95C17A063
+
+CLd /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/SpaceJam normal i386
+s426112921.163865
+e426112921.479741
+r1
+xLd
+x/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/SpaceJam
+xnormal
+xi386
+d/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/SpaceJam.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THViewController.o
+d/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THAppDelegate.o
+d/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/THMyScene.o
+d/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Link /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/SpaceJam73"Ld Build/Products/Debug-iphonesimulator/SpaceJam.app/SpaceJam normal i386de012a99f765b941^4ad17a99f765b941^---0#0#1#--1468"Ld Build/Products/Debug-iphonesimulator/SpaceJam.app/SpaceJam normal i386    cd /Users/michaelstromer/Documents/Codes/SpaceJam    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator -F/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator -filelist /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/SpaceJam.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework UIKit -framework SpriteKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/Objects-normal/i386/SpaceJam_dependency_info.dat -o /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/SpaceJam36"3CC75516-86C0-4E7F-B7CD-D60941D4B936-
+b52EFFD27-F844-4F0A-AD73-99D95C17A063
+
+CProcessInfoPlistFile /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/Info.plist /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/SpaceJam-Info.plist
+s426112922.285982
+e426112922.287396
+r1
+xProcessInfoPlistFile
+x/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/Info.plist
+x/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/SpaceJam-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Process /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/SpaceJam-Info.plist110"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/SpaceJam.app/Info.plist SpaceJam/SpaceJam-Info.plist1843499af765b941^3e93499af765b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/SpaceJam-Info.plist0000000000000000^931"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/SpaceJam.app/Info.plist SpaceJam/SpaceJam-Info.plist    cd /Users/michaelstromer/Documents/Codes/SpaceJam    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/SpaceJam-Info.plist -genpkginfo /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/assetcatalog_generated_info.plist -o /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app/Info.plist36"781C532E-D143-4190-893E-700C20B84A3C-
+b52EFFD27-F844-4F0A-AD73-99D95C17A063
+
+CProcessPCH /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/PrecompiledHeaders/SpaceJam-Prefix-coqhwyunypewngcqnramauplgzkw/SpaceJam-Prefix.pch.pch SpaceJam/SpaceJam-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s426112919.442503
+e426112920.401441
+r1
+xProcessPCH
+x/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/PrecompiledHeaders/SpaceJam-Prefix-coqhwyunypewngcqnramauplgzkw/SpaceJam-Prefix.pch.pch
+xSpaceJam/SpaceJam-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/SpaceJam-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile SpaceJam/SpaceJam-Prefix.pch215"ProcessPCH Build/Intermediates/PrecompiledHeaders/SpaceJam-Prefix-coqhwyunypewngcqnramauplgzkw/SpaceJam-Prefix.pch.pch SpaceJam/SpaceJam-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0b617197f765b941^47c66698f765b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/SpaceJam-Prefix.pch0000000000000000^3665"ProcessPCH Build/Intermediates/PrecompiledHeaders/SpaceJam-Prefix-coqhwyunypewngcqnramauplgzkw/SpaceJam-Prefix.pch.pch SpaceJam/SpaceJam-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/michaelstromer/Documents/Codes/SpaceJam    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/michaelstromer/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-generated-files.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-own-target-headers.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-all-target-headers.hmap -iquote /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/SpaceJam-project-headers.hmap -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/DerivedSources/i386 -I/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/SpaceJam.build/Debug-iphonesimulator/SpaceJam.build/DerivedSources -F/Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/PrecompiledHeaders/SpaceJam-Prefix-coqhwyunypewngcqnramauplgzkw/SpaceJam-Prefix.pch.dia -MMD -MT dependencies -MF /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/PrecompiledHeaders/SpaceJam-Prefix-coqhwyunypewngcqnramauplgzkw/SpaceJam-Prefix.pch.d -c /Users/michaelstromer/Documents/Codes/SpaceJam/SpaceJam/SpaceJam-Prefix.pch -o /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Intermediates/PrecompiledHeaders/SpaceJam-Prefix-coqhwyunypewngcqnramauplgzkw/SpaceJam-Prefix.pch.pch36"945CE9C8-D144-4F47-B2E0-7335C179E9F2-
+b52EFFD27-F844-4F0A-AD73-99D95C17A063
+
+CProcessPCH /Users/michaelstromer/Library/Developer/Xcode/DerivedData/SpaceJam-bplsmzkfasnelofqrecxpippbali/Index/PrecompiledHeaders/SpaceJam-Prefix-bkybeffqbkadtbeayolbonstfwka_ast/SpaceJam-Prefix.pch.pch SpaceJam/SpaceJam-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/michaelstromer/Documents/Codes/SpaceJam/Build/Products/Debug-iphonesimulator/SpaceJam.app
+r0
+
